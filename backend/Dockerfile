@@ -21,7 +21,7 @@ RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels -r requir
 # FINAL #
 #########
 
-# pull official base image
+# pull official base imagels /var/lib/postgresql/data/
 FROM python:3.7.9-slim-stretch
 
 # installing netcat (nc) since we are using that to listen to postgres server in entrypoint.sh
@@ -46,4 +46,4 @@ COPY ./django_app .
 
 # run entrypoint.sh
 RUN chmod +x /usr/src/app/entrypoint.sh
-ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
+# ENTRYPOINT ["/usr/src/app/entrypoint.sh"]
