@@ -43,3 +43,8 @@ yarn-error.log*
 
 ### Apple Mac cleverness
 .DS_Store
+
+## Anything ISTIO
+*istio-1.12.2*
+
+
