@@ -14,10 +14,11 @@ data:
   DJANGO_ALLOWED_HOSTS: "*"
   DJANGO_ADMIN_USER: admin
   DJANGO_ADMIN_EMAIL: "admin@example.com"
-
+  
+  #db server components
   DATABASE: postgres
-  DB_ENGINE: "django.db.backends.postgresql"
+  DB_ENGINE: "django.db.backends.postgresql" #change this
   DB_DATABASE: predictiondb
-  DB_USER: postgres_user
-  DB_HOST: postgres-cluster-ip-service
+  DB_USER: postgres_user #change this
+  DB_HOST: postgres-cluster-ip-service #change this
   DB_PORT: "5432"

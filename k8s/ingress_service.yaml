@@ -67,4 +67,4 @@ spec:
                 name: react-cluster-ip-service
                 port:  
                   number: 3000
-          
+--- 
