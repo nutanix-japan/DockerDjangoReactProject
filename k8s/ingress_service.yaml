@@ -2,11 +2,12 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ingress-service
+  namespace: lakshmi
   annotations:
     kubernetes.io/ingress.class: 'nginx'
 spec:
   rules:
-    - host: 
+    - host: flower.apps.hackathon.hackathon8.ntnxlab.local
       http:
         paths:
           ################

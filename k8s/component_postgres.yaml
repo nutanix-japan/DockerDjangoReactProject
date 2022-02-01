@@ -5,6 +5,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: postgres-persistent-volume-claim
+  namespace: lakshmi
 spec:
   accessModes:
     - ReadWriteOnce
@@ -19,6 +20,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: postgres-deployment
+  namespace: lakshmi
 spec:
   replicas: 1
   selector:

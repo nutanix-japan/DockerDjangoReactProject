@@ -2,8 +2,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-a
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/"   
   to:
     kind: Service
@@ -17,8 +18,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-b
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/admin"   
   to:
     kind: Service
@@ -32,8 +34,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-c
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/api"   
   to:
     kind: Service
@@ -47,8 +50,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-d
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/static/admin/"   
   to:
     kind: Service
@@ -62,8 +66,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-e
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/static/rest_framework/"   
   to:
     kind: Service
@@ -77,8 +82,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-f
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/static/"   
   to:
     kind: Service
@@ -92,8 +98,9 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-g
+  namespace: lakshmi
 spec:
-  host: flower.apps.lb-hack.ntnxlab.local
+  host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/media/"   
   to:
     kind: Service

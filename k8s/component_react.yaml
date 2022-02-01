@@ -5,6 +5,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: react-deployment
+  namespace: lakshmi
 spec:
   replicas: 3
   selector:
@@ -17,7 +18,7 @@ spec:
     spec:
       containers:
         - name: react-container
-          image: ariesbabu/react_dev_image:latest
+          image: public.ecr.aws/x0e4z5r2/react_dev_image:latest
           ports:
             - containerPort: 3000
           command: ["sh", "-c", "serve -s build -l 3000 --no-clipboard"]       
@@ -30,6 +31,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: react-cluster-ip-service
+  namespace: lakshmi
 spec:
   type: ClusterIP
   selector:
