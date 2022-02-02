@@ -13,8 +13,9 @@ We modified some parts of implementation yaml, docker repos, Ingress configurati
 
 ## Implementation
 
-''
- oc create ns era-demo
- oc apply -f k8s/app_secrets.yaml
-''
- 
+```bash
+   oc create ns era-demo
+   oc apply -f app_secrets.yaml
+   
+```
+
