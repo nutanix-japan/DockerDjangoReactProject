@@ -10,3 +10,11 @@ We modified some parts of implementation yaml, docker repos, Ingress configurati
 
 - Ingress does not work in Single Node OCP Cluster - still checking why - working around by creating OCP routes resource
 - iSCSI drivers do not work in Single Node OCP - see this Nutanix [technote](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA07V000000LWXJSA4) for fix. 
+
+## Implementation
+
+''
+ oc create ns era-demo
+ oc apply -f k8s/app_secrets.yaml
+''
+ 
