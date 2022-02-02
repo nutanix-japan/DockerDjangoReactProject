@@ -9,4 +9,4 @@ We modified some parts of implementation yaml, docker repos, Ingress configurati
 ## Note
 
 - Ingress does not work in Single Node OCP Cluster - still checking why - working around by creating OCP routes resource
-- iSCSI drivers do not work in Single Node OCP - see this Nutanix [technote] (https://portal.nutanix.com/page/documents/kbs/details?targetId=kA07V000000LWXJSA4) for fix. 
+- iSCSI drivers do not work in Single Node OCP - see this Nutanix [technote](https://portal.nutanix.com/page/documents/kbs/details?targetId=kA07V000000LWXJSA4) for fix. 
