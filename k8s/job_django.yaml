@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: django-job-container
-        image: ariesbabu/django_dev_image:latest
+        image: public.ecr.aws/x0e4z5r2/django_dev_image:latest
         command: ["bash", "-c", "/usr/src/app/entrypoint.sh"]
         env:
           - name: DJANGO_ENV
