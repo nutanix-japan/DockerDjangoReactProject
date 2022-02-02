@@ -5,7 +5,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: django-job
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   template:
     spec:

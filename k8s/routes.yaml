@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-a
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/"   
@@ -18,7 +18,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-b
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/admin"   
@@ -34,7 +34,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-c
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/api"   
@@ -50,7 +50,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-d
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/static/admin/"   
@@ -66,7 +66,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-e
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/static/rest_framework/"   
@@ -82,7 +82,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-f
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/static/"   
@@ -98,7 +98,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: route-path-g
-  namespace: lakshmi
+  namespace: era-demo
 spec:
   host: flower.apps.hackathon.hackathon8.ntnxlab.local
   path: "/media/"   
