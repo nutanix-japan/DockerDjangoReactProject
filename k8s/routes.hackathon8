@@ -1,8 +1,0 @@
-10.149.26.153	api.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	oauth-openshift.apps.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	console-openshift-console.apps.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	grafana-openshift-monitoring.apps.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	thanos-querier-openshift-monitoring.apps.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	prometheus-k8s-openshift-monitoring.apps.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	alertmanager-main-openshift-monitoring.apps.hackathon.hackathon8.ntnxlab.local
-10.149.26.153	hackathon.hackathon8
