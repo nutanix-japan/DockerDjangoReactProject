@@ -16,7 +16,7 @@ We modified some parts of implementation yaml, docker repos, Ingress configurati
 ```bash
    oc create ns era-demo
    oc apply -f k8s/app_secrets.yaml  ## create app password as kubernetes secrets
-   oc apply -f k8s/app_secrets.yaml  ## create database and app connectivity paramets
+   oc apply -f k8s/app_variables.yaml  ## create database and app connectivity paramets
    oc apply -f k8s/pg_service.yaml   ## create ExternalName service reference to operator deployed Era VM
    oc apply -f k8s/job_django.yaml   ## create table, run migrations, etc
    oc apply -f k8s/component_django.yaml ## create backend django app
